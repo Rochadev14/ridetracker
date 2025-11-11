@@ -248,7 +248,7 @@ Este proyecto es de código abierto bajo la licencia MIT.
 
 ## 👤 Autor
 
-**[Tu Nombre]**
+**Daniel Rocha**
 - GitHub: [@Rochadev14](https://github.com/Rochadev14)
 - LinkedIn: [Tu Perfil](https://linkedin.com/in/daniel-rocha-piqueras-08275636a)
 - Email: danielrochadev14@gmail.com
