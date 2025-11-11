@@ -1,2 +1,8 @@
 from pymongo import MongoClient
-client= MongoClient("mongodb://admin:password123@ride-tracker-db:27017/")
+from config.config import settings
+
+# Cliente de MongoDB
+client = MongoClient(settings.mongodb_url)
+
+# Base de datos
+db = client[settings.database_name]

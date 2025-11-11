@@ -37,7 +37,7 @@ async def obtener_clase(clase_id: str):
     try:
         clase=client.local.clases.find_one({"_id": ObjectId(clase_id)})
     except:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Clase no encontrada"))
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Clase no encontrada")
     return clase_schema(client.local.clases.find_one({"_id": ObjectId(clase_id)}))
 
 
